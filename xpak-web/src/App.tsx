@@ -3,6 +3,9 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import styled from 'styled-components';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import States from './pages/States';
 
 
 const Container = styled.div`
@@ -22,7 +25,10 @@ function App() {
         <Container>
             <>
                 <Routes>
-                    <Route path='/' element={<></>} />
+                    <Route path='/' element={<Login />} />
+                    <Route path='/home' element={<Home />} />
+                    <Route path='/states' element={<States />} />
+                    <Route path='*' element={<div>Not found</div>} />
                 </Routes>
             </>
             <ToastContainer limit={1} />

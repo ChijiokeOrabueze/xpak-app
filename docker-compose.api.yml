@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  db:
+    image: postgres
+    ports:
+      - '5433:5432'
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - local-db:/var/lib/postgresql/data
+  server:
+    build: ./xpak-api
+    ports:
+      - "8000:3000"
+    env_file: 
+      - ".env"
+    depends_on:
+      - db
+
+volumes:
+  local-db:

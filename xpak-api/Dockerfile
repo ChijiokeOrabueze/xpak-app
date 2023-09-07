@@ -1,7 +1,7 @@
 FROM ruby:3.1.4
 
-RUN mkdir /app
-WORKDIR /app
+RUN mkdir /api
+WORKDIR /api
 
 RUN apt-get update -qq \
 && apt-get install -y nodejs postgresql-client
