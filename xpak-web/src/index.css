@@ -1,0 +1,60 @@
+/* index css */
+@font-face {
+    font-family: 'NunitoRegular'; /*400px*/
+    src: local('Nunito'), url(/fonts/Nunito/static/Nunito-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'NunitoSemiBold'; /*600px*/
+    src: local('Nunito'), url(/fonts/Nunito/static/Nunito-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'NunitoBold'; /*700px*/
+    src: local('Nunito'), url(/fonts/Nunito/static/Nunito-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoRegular'; /*400px*/
+    src: local('Roboto'), url(/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoMedium'; /*500px*/
+    src: local('Roboto'), url(/fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoBold'; /*700px*/
+    src: local('Roboto'), url(/fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'InterRegular'; /*400px*/
+    src: local('Inter'), url(/fonts/Inter/static/Inter-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'InterMedium'; /*500px*/
+    src: local('Inter'), url(/fonts/Inter/Inter-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'InterSemiBold'; /*600px*/
+    src: local('Inter'), url(/fonts/Inter/static/Inter-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'InterBold'; /*700px*/
+    src: local('Inter'), url(/fonts/Inter/static/Inter-Bold.ttf) format('truetype');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'RobotoRegular', Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}

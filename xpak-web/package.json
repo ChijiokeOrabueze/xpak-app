@@ -1,0 +1,36 @@
+{
+    "name": "xpak",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --host",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "typescript:compile": "tsc --noEmit"
+    },
+    "dependencies": {
+        "crypto-js": "^4.1.1",
+        "formik": "^2.2.9",
+        "libphonenumber-js": "^1.10.28",
+        "moment": "^2.29.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.8.2",
+        "react-toastify": "^9.1.2",
+        "styled-components": "^5.3.6",
+        "yup": "^1.0.2"
+    },
+    "devDependencies": {
+        "@types/crypto-js": "^4.1.1",
+        "@types/node": "^18.15.10",
+        "@types/react": "^18.0.27",
+        "@types/react-dom": "^18.0.10",
+        "@types/styled-components": "^5.1.26",
+        "@typescript-eslint/eslint-plugin": "^5.54.0",
+        "@typescript-eslint/parser": "^5.54.0",
+        "@vitejs/plugin-react": "^3.1.0",
+        "typescript": "^4.9.3",
+        "vite": "^4.1.0"
+    }
+}
